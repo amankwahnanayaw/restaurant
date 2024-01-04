@@ -60,6 +60,7 @@
 
 .app__navbar-smallscreen {
     display: none;
+    cursor: pointer;
 }
 
 .app__navbar-smallscreen_overlay {
@@ -83,6 +84,19 @@
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.app__navbar-smallscreen_links {
+    list-style: none;
+}
+
+.app__navbar-smallscreen_links li {
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
 }
 
 @media screen and (max-width: 1150px) {

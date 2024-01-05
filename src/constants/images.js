@@ -21,6 +21,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import vine from '../assets/vine.png'
+import headerimg from '../assets/headerimg.png'
 
 export default {
   bg,
@@ -46,4 +47,5 @@ export default {
   quote,
   gericht,
   vine,
+  headerimg,
 };

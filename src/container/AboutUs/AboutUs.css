@@ -33,7 +33,7 @@
 }
 
 .app__aboutus-content_knife img {
-    height: 910px;
+    height: 850px;
 }
 
 .app__aboutus-content_history {
@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 2000px) {
     .app__aboutus-content_knife img {
-        height: 1110px;
+        height: 1100px;
     }
 
     .app__aboutus-content_about p,
@@ -75,14 +75,14 @@
 
     .app__aboutus-overlay img {
         width: 80%;
-        height: 550px;
+        height: 650px;
     }
 }
 
 @media screen and (max-width: 650px) {
     .app__aboutus-overlay img {
         width: 80%;
-        height: 320px;
+        height: 500px;
     }
 }
 

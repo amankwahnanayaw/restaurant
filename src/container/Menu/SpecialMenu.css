@@ -23,4 +23,22 @@
     font-weight: 600;
     font-size: 45;
     line-height: 58.5;
+    letter-spacing: 0.4rem;
+    color: var(--color-white);
+}
+
+.app__specialMenu-menu_wines, 
+.app__specialMenu-menu_cocktails {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__specialMenu-menu_img {
+    width: 410px;
+    margin: 0 2rem;
+}
+
+.app__specialMenu-menu_img img {
+    width: 100%;
 }

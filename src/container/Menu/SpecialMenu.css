@@ -21,8 +21,8 @@
 .app__specialMenu-menu_heading {
     font-family: var(--font-base);
     font-weight: 600;
-    font-size: 45;
-    line-height: 58.5;
+    font-size: 45px;
+    line-height: 58.5px;
     letter-spacing: 0.4rem;
     color: var(--color-white);
 }

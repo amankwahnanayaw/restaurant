@@ -21,11 +21,11 @@ const SpecialMenu = () => (
         </div>
       </div>
 
-      <div app__specialMenu-menu_img>
+      <div className='app__specialMenu-menu_img'>
         <img src={images.menu} alt="menu img" />
       </div>
 
-      <div className='app__specialMenu-menu_cocltails'>
+      <div className='app__specialMenu-menu_cocktails'>
         <p className='app__specialMenu-menu_heading'>Cocktails</p>
         <div className='app__specialMenu_menu_items'>
           {data.cocktails.map((cocktails, index) => (

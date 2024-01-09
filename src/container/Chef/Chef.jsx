@@ -20,8 +20,13 @@ const Chef = () => (
           <p className='app__opensans'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
         <p className='app__opensans'>Similique quasi modi commodi, illo ad nihil explicabo labore repudiandae vitae, corporis deserunt assumenda quia ab alias provident aliquam ipsa sequi accusamus?</p>
-      </div>
-    </div>
+      </div> 
+
+      <div className='app__chef-sign'>
+        <p>Jones Quaynor</p>
+        <p className='app__opensans'>Group Executive Chef</p>
+      </div> 
+    </div>  
   </div>
 );
 

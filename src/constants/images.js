@@ -24,6 +24,7 @@ import vine from '../assets/vine.png'
 import headerimg from '../assets/headerimg.png';
 import vinechef from '../assets/vinechef.png';
 import jones from '../assets/jones.png';
+import awardslaurel from '../assets/awardslaurel.png'
 
 export default {
   bg,
@@ -52,4 +53,5 @@ export default {
   headerimg,
   vinechef,
   jones,
+  awardslaurel,
 };

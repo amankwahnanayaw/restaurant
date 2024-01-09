@@ -12,10 +12,10 @@
 .app__video-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.40);
+    background: rgba(0, 0, 0, 0.30);
 }
 
-.app__video-overlay {
+.app__video-overlay_circle {
     width: 100px;
     height: 100px;
     border-radius: 50%;

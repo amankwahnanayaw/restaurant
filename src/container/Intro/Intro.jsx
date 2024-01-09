@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillPlayFill, BsPauseFill } from 'react-icons';
+import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 
 import { vineintro } from '../../constants';
 import './Intro.css';

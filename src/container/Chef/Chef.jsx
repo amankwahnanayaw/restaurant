@@ -17,14 +17,14 @@ const Chef = () => (
       <div className='app__chef-content'>
         <div className='app__chef-content_quote'>
           <img src={images.quote} alt="quote" />
-          <p className='app__opensans'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <p className='p__opensans'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
-        <p className='app__opensans'>Similique quasi modi commodi, illo ad nihil explicabo labore repudiandae vitae, corporis deserunt assumenda quia ab alias provident aliquam ipsa sequi accusamus?</p>
+        <p className='p__opensans'>Similique quasi modi commodi, illo ad nihil explicabo labore repudiandae vitae, corporis deserunt assumenda quia ab alias provident aliquam ipsa sequi accusamus?</p>
       </div> 
 
       <div className='app__chef-sign'>
         <p>Jones Quaynor</p>
-        <p className='app__opensans'>Group Executive Chef</p>
+        <p className='p__opensans'>Group Executive Chef</p>
         <img src={images.jones} alt="sign" />
       </div> 
     </div>  

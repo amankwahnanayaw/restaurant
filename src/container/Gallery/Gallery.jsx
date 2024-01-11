@@ -6,7 +6,7 @@ import { images } from '../../constants';
 import './Gallery.css';
 
 const Gallery = () => {
-
+  const scrollRef = React.useRef(null)
 
   return(
     <div className='app__gallery flex__center'>
@@ -14,6 +14,16 @@ const Gallery = () => {
         <SubHeading title='Instagram' />
         <h1 className='headtext__cormorant'>Photo Gallery</h1>
         <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem'}}>Similique quasi modi commodi, illo ad nihil explicabo labore repudiandae vitae,</p>
+        <button type='button' className='custom__button'>View More</button>
+      </div>
+
+      <div className='app__gallery-images'>
+        <div className='app__gallery-images_container' ref={scrollRef}>
+
+        </div>
+        <div className='app__gallery-images_arrow'>
+          <BsArrowLeftShort className='gallery__arrow-icon' onClick={() => scroll('left')} />
+        </div>
       </div>
     </div>
   );

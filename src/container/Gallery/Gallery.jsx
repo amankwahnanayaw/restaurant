@@ -29,7 +29,11 @@ const Gallery = () => {
 
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>
-          
+          {images.map((image,index) => (
+            <div>
+              
+            </div>
+          ))}
         </div>
         <div className='app__gallery-images_arrow'>
           <BsArrowLeftShort className='gallery__arrow-icon' onClick={() => scroll('left')} />

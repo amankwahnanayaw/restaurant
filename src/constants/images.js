@@ -25,6 +25,11 @@ import headerimg from '../assets/headerimg.png';
 import vinechef from '../assets/vinechef.png';
 import jones from '../assets/jones.png';
 import awardslaurel from '../assets/awardslaurel.png'
+import insta01 from '../assets/insta01.png';
+import insta02 from '../assets/insta02.png';
+import insta03 from '../assets/insta03.png';
+import insta04 from '../assets/insta04.png';
+import insta05 from '../assets/insta05.png';
 
 export default {
   bg,
@@ -54,4 +59,9 @@ export default {
   vinechef,
   jones,
   awardslaurel,
+  insta01,
+  insta02,
+  insta03,
+  insta04,
+  insta05,
 };

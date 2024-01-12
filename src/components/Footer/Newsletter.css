@@ -30,8 +30,11 @@
     width: max-content;
 }
 
-@media screen and (min-width: 2000px) {
 
+@media screen and (min-width: 2000px) {
+    .app__newsLetter-input input {
+        font-size: 2rem;
+    }
 }
 
 

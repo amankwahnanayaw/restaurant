@@ -13,6 +13,7 @@ const FindUs = () => (
         <p className='p__cormorant' style={{ color: '#DCCA87', margin: '2rem 0' }}>Opening Hours</p>
         <p className='p__opensans'>Mon- Fri: 12:30 - 11 pm</p>
         <p className='p__opensans'>Sat: 12:30 - 11 pm (Brunch till 4 pm)</p>
+        <p className='p__opensans'>Sun: 12:30 - 9 pm (Brunch)</p>
       </div>
     </div>
 

@@ -10,8 +10,9 @@ const Newsletter = () => (
       <h1 className='headtext__cormorant'>Subscribe to Our NewsLetter</h1>
       <p className='p__opensans'>And never miss Latest Updates</p>
     </div>
-    <div className='app__newslett'>
-
+    <div className='app__newsLetter-input flex__center'>
+      <input type='email' placeholder='Enter your e-mail address' />
+      <button className='custom__button'>Subscribe</button>
     </div>
   </div>
 );

@@ -15,6 +15,7 @@ const FindUs = () => (
         <p className='p__opensans'>Sat: 12:30 - 11 pm (Brunch till 4 pm)</p>
         <p className='p__opensans'>Sun: 12:30 - 9 pm (Brunch)</p>
       </div>
+      <button className='custom__button' style={{  }}></button>
     </div>
 
     <div className='app__wrapper_img'>

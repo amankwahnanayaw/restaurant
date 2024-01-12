@@ -38,7 +38,12 @@
 @media screen and (max-width: 990px) {
     .app__newsLetter-input {
         flex-direction: column;
-        
+        width: 100%;
+    }
+
+    .app__newsLetter-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
     }
 }
 

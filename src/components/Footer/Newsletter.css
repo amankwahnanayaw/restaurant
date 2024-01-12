@@ -25,3 +25,35 @@
     padding: 0.75rem 1rem;
     background: var(--color-black);
 }
+
+.app__newsLetter-input button {
+    width: max-content;
+}
+
+@media screen and (min-width: 2000px) {
+
+}
+
+
+@media screen and (max-width: 990px) {
+    .app__newsLetter-input {
+        flex-direction: column;
+        
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__newsLetter {
+        padding: 2rem 0;
+        border: none;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .app__newsLetter-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}

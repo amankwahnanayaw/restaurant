@@ -12,3 +12,11 @@
     flex-direction: column;
     margin-top: 3rem;
 }
+
+.app__newsLetter-input input {
+    width: 620px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+}

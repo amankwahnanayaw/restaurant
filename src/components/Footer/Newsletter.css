@@ -9,7 +9,7 @@
 }
 
 .app__newsletter-input {
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 3rem;
 }
 

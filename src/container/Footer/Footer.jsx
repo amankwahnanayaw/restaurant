@@ -7,7 +7,7 @@ import './Footer.css';
 
 const Footer = () => (
   <div className='app__footer section__padding'>
-    <FooterOverlay />
+   
     <Newsletter />
     <div className='app__footer-links'>
       <div className='app__footer-links_contact'>
@@ -20,14 +20,20 @@ const Footer = () => (
         <img src={images.gericht} alt="footer_logo" />
         <p className='p__opensans'>"The best way to find yourself is to lose yourself in the service of others"</p>
         <img src={images.spoon} alt="spoon" className='spoon__img' style={{ marginTop: 15 }}/>
-        <div className='app__footer-link_icons'>
+        <div className='app__footer-links_icons'>
           <FiFacebook />
           <FiTwitter />
           <FiInstagram />
         </div>
       </div>
       <div className='app__footer-links_work'>
-
+        <h1 className='app__footer-headtext'>Working Hours</h1>
+        <p className='p__opensans'>Monday-Friday</p>
+        <p className='p__opensans'>12:30 - 11pm</p>
+        <p className='p__opensans'>Saturday</p>
+        <p className='p__opensans'>12:30 - 9pm (Brunch till 4pm)</p>
+        <p className='p__opensans'>Sunday</p>
+        <p className='p__opensans'>12:30 - 9pm (Branch)</p>
       </div>
 
     </div>
